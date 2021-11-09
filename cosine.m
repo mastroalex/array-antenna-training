@@ -2,6 +2,7 @@
 % MATLAB Code from Sensor Array Analyzer App
 
 % Assign Frequencies and Propagation Speed
+close all
 Frequency = 300000000;
 PropagationSpeed = 300000000;
 

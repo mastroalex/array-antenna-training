@@ -6,6 +6,8 @@ Frequency = 300000000;
 PropagationSpeed = 300000000;
 %% puntamento array lineare antenne isotropiche
 % Create a Uniform Linear Array Object
+Frequency = 300000000;
+PropagationSpeed = 300000000;
 Array = phased.ULA('NumElements',6,...
 'ArrayAxis','x');
 % The multiplication factor for lambda units to meter conversion
@@ -92,6 +94,7 @@ end
 
 %% elementi array lineare antenne isotropiche
 % Create a Uniform Linear Array Object
+close all
 Array = phased.ULA('NumElements',6,...
 'ArrayAxis','x');
 % The multiplication factor for lambda units to meter conversion
