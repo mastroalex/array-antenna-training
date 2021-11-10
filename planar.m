@@ -68,7 +68,7 @@ pause(0.2)
 
 end
 
-%%
+%% variazione elementi
 close all
 vec=[4 10 16];
 indice=[1 2 3 4; 5 6 7 8;9 10 11 12];
