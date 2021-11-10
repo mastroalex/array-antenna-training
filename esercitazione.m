@@ -4,7 +4,7 @@ lambda = physconst('LightSpeed')/f
 %%
 sensorArrayAnalyzer
 %%
-Array=ula;
+Array=ula
 spacing=Array.ElementSpacing
 L=(Array.NumElements+1)*spacing
 span=Array.NumElements*spacing
@@ -14,7 +14,7 @@ wvtool(hamming(testelemnt)); %plot hamming window
 wvtool(chebwin(testelemnt)); %plot chebyshev 
 
 %%
-ula.Taper %vector with taper coefficients
+Array.Taper' %vector with taper coefficients
 
 %%
 % Create an isotropic antenna element
