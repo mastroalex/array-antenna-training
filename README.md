@@ -2,7 +2,7 @@
 
 During the lessons of Wireless Electromagnetics Technologies I prepared an exercise on antenna arrays in Matlab.
 
-[📡 more info..]()
+[📡 more info..](https://alessandromastrofini.it/array-esercitazione-matlab)
 
 <br>
 
