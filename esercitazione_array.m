@@ -7,6 +7,8 @@
 % ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 % Per il codice sono richiesti il toolobox 'subfigure' 
 % e il Phased Array System Toolbox
+
+%% test ed esempi iniziali
 f=3e8 %3 MHz
 lambda = physconst('LightSpeed')/f
 %%
